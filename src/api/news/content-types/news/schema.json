@@ -3,9 +3,9 @@
   "collectionName": "news",
   "info": {
     "singularName": "news",
-    "pluralName": "news",
+    "pluralName": "news-items",
     "displayName": "News",
-    "description": "News content type with title, description, and image"
+    "description": "Manage News addint title, description and image ( optional )"
   },
   "options": {
     "draftAndPublish": true
