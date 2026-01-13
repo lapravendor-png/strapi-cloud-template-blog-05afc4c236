@@ -29,10 +29,6 @@
   },
   "categories": [
     {
-      "name": "news",
-      "slug": "news"
-    },
-    {
       "name": "tech",
       "slug": "tech"
     },
