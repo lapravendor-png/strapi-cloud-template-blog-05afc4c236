@@ -1,11 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "news",
+  "collectionName": "news-items",
   "info": {
-    "singularName": "news",
+    "singularName": "news-item",
     "pluralName": "news-items",
     "displayName": "News",
-    "description": "Manage News adding title, description and image ( optional )"
+    "description": "Manage News adding title, subtitle and mini subtitle and image (optional)"
   },
   "options": {
     "draftAndPublish": true
@@ -13,15 +13,21 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 5,
+      "maxLength": 100
     },
     "subtitle": {
       "type": "text",
-      "required": true
+      "required": true,
+      "minLength": 10,
+      "maxLength": 250
     },
     "mini_subtitle": {
       "type": "text",
-      "required": true
+      "required": true,
+      "minLength": 5,
+      "maxLength": 150
     },
     "image": {
       "type": "media",
