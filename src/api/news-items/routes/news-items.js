@@ -6,4 +6,4 @@
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::news-items.news-items');
+module.exports = createCoreRouter('api::news-items.news-item');

@@ -6,4 +6,4 @@
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::news-items.news-items');
+module.exports = createCoreController('api::news-items.news-item');
