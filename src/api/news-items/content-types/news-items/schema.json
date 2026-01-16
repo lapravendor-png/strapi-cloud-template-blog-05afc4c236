@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "news-items",
   "info": {
-    "singularName": "news-item",
+    "singularName": "news-items",
     "pluralName": "news-items",
     "displayName": "News",
     "description": "Manage News adding title, subtitle and mini subtitle and image (optional)"
