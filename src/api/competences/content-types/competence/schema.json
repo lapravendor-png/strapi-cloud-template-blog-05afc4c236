@@ -5,7 +5,7 @@
     "singularName": "competence",
     "pluralName": "competences",
     "displayName": "Competences",
-    "description": "Manage Competencess adding title, description and date"
+    "description": "Manage Competencess adding title, description"
   },
   "options": {
     "draftAndPublish": true
@@ -22,10 +22,6 @@
       "required": true,
       "minLength": 10,
       "maxLength": 2000
-    },
-    "date": {
-      "type": "date",
-      "required": true
     }
   }
 }
