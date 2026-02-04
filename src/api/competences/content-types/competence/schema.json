@@ -4,8 +4,8 @@
   "info": {
     "singularName": "competence",
     "pluralName": "competences",
-    "displayName": "Competences",
-    "description": "Manage Competences adding title, description and list items"
+    "displayName": "Компетенції",
+    "description": "Керування компетенціями, додавання назви, опису та елементів списку"
   },
   "options": {
     "draftAndPublish": true
@@ -15,24 +15,25 @@
       "type": "string",
       "required": true,
       "minLength": 2,
-      "maxLength": 100
+      "maxLength": 100,
+      "displayName": "Заголовок"
     },
-    "forWhoText": {
+    "description": {
       "type": "text",
       "required": true,
       "minLength": 2,
-      "maxLength": 2000
+      "maxLength": 200,
+      "displayName": "Для кого"
     },
-
-    "listItem1": { "type": "string" },
-    "listItem2": { "type": "string" },
-    "listItem3": { "type": "string" },
-    "listItem4": { "type": "string" },
-    "listItem5": { "type": "string" },
-    "listItem6": { "type": "string" },
-    "listItem7": { "type": "string" },
-    "listItem8": { "type": "string" },
-    "listItem9": { "type": "string" },
-    "listItem10": { "type": "string" }
+    "listItem1": { "type": "string", "required": false, "displayName": "Список #1" },
+    "listItem2": { "type": "string", "required": false, "displayName": "Список #2" },
+    "listItem3": { "type": "string", "required": false, "displayName": "Список #3" },
+    "listItem4": { "type": "string", "required": false, "displayName": "Список #4" },
+    "listItem5": { "type": "string", "required": false, "displayName": "Список #5" },
+    "listItem6": { "type": "string", "required": false, "displayName": "Список #6" },
+    "listItem7": { "type": "string", "required": false, "displayName": "Список #7" },
+    "listItem8": { "type": "string", "required": false, "displayName": "Список #8" },
+    "listItem9": { "type": "string", "required": false, "displayName": "Список #9" },
+    "listItem10": { "type": "string", "required": false, "displayName": "Список #10" }
   }
 }

@@ -4,8 +4,8 @@
   "info": {
     "singularName": "news-item",
     "pluralName": "news-items",
-    "displayName": "News",
-    "description": "Manage News adding title, subtitle, mini subtitles, date and image"
+    "displayName": "Новини",
+    "description": "Керування новинами, додавання заголовка, підзаголовка, міні-субтитрів, дати та зображення"
   },
   "options": {
     "draftAndPublish": true
@@ -14,36 +14,26 @@
     "title": {
       "type": "string",
       "required": true,
-      "minLength": 5,
-      "maxLength": 100
+      "minLength": 2,
+      "maxLength": 100,
+      "displayName": "Заголовок"
     },
     "subtitle": {
       "type": "text",
       "required": true,
-      "minLength": 10,
-      "maxLength": 250
+      "displayName": "Підзаголовок"
     },
-
-    "miniSubtitle1": { "type": "text" },
-    "miniSubtitle2": { "type": "text" },
-    "miniSubtitle3": { "type": "text" },
-    "miniSubtitle4": { "type": "text" },
-    "miniSubtitle5": { "type": "text" },
-    "miniSubtitle6": { "type": "text" },
-    "miniSubtitle7": { "type": "text" },
-    "miniSubtitle8": { "type": "text" },
-    "miniSubtitle9": { "type": "text" },
-    "miniSubtitle10": { "type": "text" },
-
-    "date": {
-      "type": "date",
-      "required": true
-    },
-
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false
-    }
+    "miniSubtitle1": { "type": "text", "required": false, "displayName": "Абзац #1" },
+    "miniSubtitle2": { "type": "text", "required": false, "displayName": "Абзац #2" },
+    "miniSubtitle3": { "type": "text", "required": false, "displayName": "Абзац #3" },
+    "miniSubtitle4": { "type": "text", "required": false, "displayName": "Абзац #4" },
+    "miniSubtitle5": { "type": "text", "required": false, "displayName": "Абзац #5" },
+    "miniSubtitle6": { "type": "text", "required": false, "displayName": "Абзац #6" },
+    "miniSubtitle7": { "type": "text", "required": false, "displayName": "Абзац #7" },
+    "miniSubtitle8": { "type": "text", "required": false, "displayName": "Абзац #8" },
+    "miniSubtitle9": { "type": "text", "required": false, "displayName": "Абзац #9" },
+    "miniSubtitle10": { "type": "text", "required": false, "displayName": "Абзац #10" },
+    "date": { "type": "date", "required": true, "displayName": "Дата" },
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
   }
 }
