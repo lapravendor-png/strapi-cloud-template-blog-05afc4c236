@@ -1,0 +1,30 @@
+{
+    "content-manager.components.LeftMenuLinkContainer.collection-types.competence": "Competences",
+
+    "competence.listItem1": "Список #1",
+    "competence.listItem2": "Список #2",
+    "competence.listItem3": "Список #3",
+    "competence.listItem4": "Список #4",
+    "competence.listItem5": "Список #5",
+    "competence.listItem6": "Список #6",
+    "competence.listItem7": "Список #7",
+    "competence.listItem8": "Список #8",
+    "competence.listItem9": "Список #9",
+    "competence.listItem10": "Список #10",
+    "competenceforWhoText": "Для Кого",
+    "competence.title": "Заголовок",
+
+    "news-item.title": "Заголовок",
+    "news-item.subtitle": "Підзаголовок",
+    "news-item.miniSubtitle1": "Абзац #1",
+    "news-item.miniSubtitle2": "Абзац #2",
+    "news-item.miniSubtitle3": "Абзац #3",
+    "news-item.miniSubtitle4": "Абзац #4",
+    "news-item.miniSubtitle5": "Абзац #5",
+    "news-item.miniSubtitle6": "Абзац #6",
+    "news-item.miniSubtitle7": "Абзац #7",
+    "news-item.miniSubtitle8": "Абзац #8",
+    "news-item.miniSubtitle9": "Абзац #9",
+    "news-item.miniSubtitle10": "Абзац #10",
+    "news-item.date": "Дата"
+}

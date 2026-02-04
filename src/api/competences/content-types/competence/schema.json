@@ -5,7 +5,7 @@
     "singularName": "competence",
     "pluralName": "competences",
     "displayName": "Competences",
-    "description": "Manage Competencess adding title, description"
+    "description": "Manage Competences adding title, description and list items"
   },
   "options": {
     "draftAndPublish": true
@@ -14,14 +14,25 @@
     "title": {
       "type": "string",
       "required": true,
-      "minLength": 5,
+      "minLength": 2,
       "maxLength": 100
     },
-    "description": {
+    "forWhoText": {
       "type": "text",
       "required": true,
-      "minLength": 10,
+      "minLength": 2,
       "maxLength": 2000
-    }
+    },
+
+    "listItem1": { "type": "string" },
+    "listItem2": { "type": "string" },
+    "listItem3": { "type": "string" },
+    "listItem4": { "type": "string" },
+    "listItem5": { "type": "string" },
+    "listItem6": { "type": "string" },
+    "listItem7": { "type": "string" },
+    "listItem8": { "type": "string" },
+    "listItem9": { "type": "string" },
+    "listItem10": { "type": "string" }
   }
 }
