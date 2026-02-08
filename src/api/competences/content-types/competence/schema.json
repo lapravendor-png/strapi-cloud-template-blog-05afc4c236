@@ -15,14 +15,13 @@
       "type": "string",
       "required": true,
       "minLength": 2,
-      "maxLength": 100,
-      "displayName": "Заголовок"
+      "maxLength": 100
     },
     "description": {
       "type": "text",
       "required": true,
       "minLength": 2,
-      "maxLength": 200,
+      "maxLength": 350,
       "displayName": "Для кого"
     },
     "listItem1": { "type": "string", "required": false, "displayName": "Список #1" },
