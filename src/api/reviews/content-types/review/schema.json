@@ -4,7 +4,7 @@
   "info": {
     "singularName": "review",
     "pluralName": "reviews",
-    "displayName": "Reviews",
+    "displayName": "Відгуки",
     "description": "Manage reviews adding name, rating, comment and photo ( optional )"
   },
   "options": {

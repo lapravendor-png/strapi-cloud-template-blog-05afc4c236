@@ -4,7 +4,7 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Projects",
+    "displayName": "Проєкти",
     "description": "Manage Projects adding title, subtitle and image ( optional )"
   },
   "options": {

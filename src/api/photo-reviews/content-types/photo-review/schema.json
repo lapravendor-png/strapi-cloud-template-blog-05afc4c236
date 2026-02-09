@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo-reviews",
+  "info": {
+    "singularName": "photo-review",
+    "pluralName": "photo-reviews",
+    "displayName": "Фото Відгуки",
+    "description": "Manage reviews adding image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
