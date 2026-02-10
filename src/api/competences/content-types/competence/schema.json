@@ -13,15 +13,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "minLength": 2,
-      "maxLength": 100
+      "required": true
     },
     "description": {
       "type": "text",
       "required": true,
-      "minLength": 2,
-      "maxLength": 350,
       "displayName": "Для кого"
     },
     "listItem1": { "type": "string", "required": false, "displayName": "Список #1" },

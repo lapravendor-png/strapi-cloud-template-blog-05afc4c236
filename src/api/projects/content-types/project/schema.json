@@ -13,15 +13,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "minLength": 5,
-      "maxLength": 100
+      "required": true
     },
     "subtitle": {
       "type": "text",
-      "required": true,
-      "minLength": 5,
-      "maxLength": 350
+      "required": true
     },
     "image": {
       "type": "media",

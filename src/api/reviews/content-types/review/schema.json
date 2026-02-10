@@ -13,15 +13,11 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "minLength": 2,
-      "maxLength": 50
+      "required": true
     },
     "comment": {
       "type": "text",
-      "required": true,
-      "minLength": 5,
-      "maxLength": 250
+      "required": true
     },
     "rating": {
       "type": "integer",

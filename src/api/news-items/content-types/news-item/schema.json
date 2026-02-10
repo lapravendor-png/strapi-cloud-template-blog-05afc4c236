@@ -14,8 +14,6 @@
     "title": {
       "type": "string",
       "required": true,
-      "minLength": 2,
-      "maxLength": 100,
       "displayName": "Заголовок"
     },
     "subtitle": {
