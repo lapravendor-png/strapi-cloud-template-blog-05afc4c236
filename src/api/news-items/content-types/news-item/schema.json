@@ -25,7 +25,7 @@
       "type": "component",
       "repeatable": true,
       "component": "content.paragraph",
-      "max": 40
+      "max": 50
     },
     "date": { "type": "date", "required": true, "displayName": "Дата" },
     "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }

@@ -24,15 +24,11 @@
       "multiple": false,
       "required": false
     },
-    "miniSubtitle1": { "type": "text", "required": false, "displayName": "Абзац #1" },
-    "miniSubtitle2": { "type": "text", "required": false, "displayName": "Абзац #2" },
-    "miniSubtitle3": { "type": "text", "required": false, "displayName": "Абзац #3" },
-    "miniSubtitle4": { "type": "text", "required": false, "displayName": "Абзац #4" },
-    "miniSubtitle5": { "type": "text", "required": false, "displayName": "Абзац #5" },
-    "miniSubtitle6": { "type": "text", "required": false, "displayName": "Абзац #6" },
-    "miniSubtitle7": { "type": "text", "required": false, "displayName": "Абзац #7" },
-    "miniSubtitle8": { "type": "text", "required": false, "displayName": "Абзац #8" },
-    "miniSubtitle9": { "type": "text", "required": false, "displayName": "Абзац #9" },
-    "miniSubtitle10": { "type": "text", "required": false, "displayName": "Абзац #10" }
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.paragraph",
+      "max": 50
+    }
   }
 }
