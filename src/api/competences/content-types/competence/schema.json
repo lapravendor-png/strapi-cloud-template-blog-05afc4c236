@@ -20,15 +20,11 @@
       "required": true,
       "displayName": "Для кого"
     },
-    "listItem1": { "type": "string", "required": false, "displayName": "Список #1" },
-    "listItem2": { "type": "string", "required": false, "displayName": "Список #2" },
-    "listItem3": { "type": "string", "required": false, "displayName": "Список #3" },
-    "listItem4": { "type": "string", "required": false, "displayName": "Список #4" },
-    "listItem5": { "type": "string", "required": false, "displayName": "Список #5" },
-    "listItem6": { "type": "string", "required": false, "displayName": "Список #6" },
-    "listItem7": { "type": "string", "required": false, "displayName": "Список #7" },
-    "listItem8": { "type": "string", "required": false, "displayName": "Список #8" },
-    "listItem9": { "type": "string", "required": false, "displayName": "Список #9" },
-    "listItem10": { "type": "string", "required": false, "displayName": "Список #10" }
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.paragraph",
+      "max": 50
+    }
   }
 }
