@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_paragraphs",
+  "info": {
+    "displayName": "Paragraph",
+    "description": "Text paragraph for news or projects"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true,
+      "displayName": "Текст абзацу"
+    }
+  }
+}
