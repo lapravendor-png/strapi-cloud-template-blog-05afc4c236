@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_achievments",
+  "info": {
+    "displayName": "Досягнення",
+    "description": "Achievment for webinar speakers"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true,
+      "displayName": "Текст"
+    }
+  }
+}
