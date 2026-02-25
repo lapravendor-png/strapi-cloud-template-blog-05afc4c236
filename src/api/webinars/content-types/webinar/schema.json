@@ -11,16 +11,42 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "title": { "type": "string", "required": true, "displayName": "Назва вебінару" },
     "subtitle": {
       "type": "text",
       "required": true,
       "displayName": "Підзаголовок"
     },
-    "theme": {
-      "type": "text",
-      "required": true,
-      "displayName": "Тема"
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" },
+    "date": { "type": "date", "required": true, "displayName": "Дата вебінару" },
+    "time": { "type": "time", "required": true, "displayName": "Час проведення" },
+    "will_be_useful": {
+      "type": "component",
+      "repeatable": true,
+      "component": "webinar.webinar_useful",
+      "displayName": "Буде корисним",
+      "max": 20
     },
-    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+    "what_you_will_learn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "webinar.webinar_learnings",
+      "displayName": "Що дізнаєтесь",
+      "max": 20
+    },
+    "rewards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "webinar.webinar_rewards",
+      "displayName": "Наші відзнаки",
+      "max": 20
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "webinar.webinar_benefits",
+      "displayName": "Що отримаєте",
+      "max": 20
+    }
   }
 }

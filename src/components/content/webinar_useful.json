@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_webinar_useful",
+  "info": {
+    "displayName": "Буде корисним",
+    "description": "Буде корисним для учасників"
+  },
+  "options": {},
+  "attributes": {
+    "text": { "type": "text", "required": true, "displayName": "Текст" },
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+  }
+}

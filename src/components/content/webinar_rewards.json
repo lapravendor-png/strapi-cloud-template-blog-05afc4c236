@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_webinar_rewards",
+  "info": {
+    "displayName": "Наші відзнаки",
+    "description": "Відзнаки"
+  },
+  "options": {},
+  "attributes": {
+    "image": { "type": "media", "multiple": false, "required": true, "displayName": "Зображення" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_webinar_learnings",
+  "info": {
+    "displayName": "Що дізнаєтесь",
+    "description": "Що учасники дізнаються на вебінарі"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true, "displayName": "Назва" },
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+  }
+}
