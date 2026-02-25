@@ -23,28 +23,28 @@
     "will_be_useful": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.webinar_useful",
+      "component": "webinar.useful",
       "displayName": "Буде корисним",
       "max": 20
     },
     "what_you_will_learn": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.webinar_learnings",
+      "component": "webinar.learnings",
       "displayName": "Що дізнаєтесь",
       "max": 20
     },
     "rewards": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.webinar_rewards",
+      "component": "webinar.rewards",
       "displayName": "Наші відзнаки",
       "max": 20
     },
     "benefits": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.webinar_benefits",
+      "component": "webinar.benefits",
       "displayName": "Що отримаєте",
       "max": 20
     }
