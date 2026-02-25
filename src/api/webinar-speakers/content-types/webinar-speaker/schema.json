@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinar_speakers",
+  "info": {
+    "singularName": "webinar-speaker",
+    "pluralName": "webinar-speakers",
+    "displayName": "Спікери вебінару",
+    "description": "Керування даними спікерів вебінару, додавання імені, посади та зображення"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true,
+      "displayName": "Ім'я"
+    },
+    "position": {
+      "type": "text",
+      "required": true,
+      "displayName": "Посада"
+    },
+    "achievments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.achievment",
+      "max": 20
+    },
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinars",
+  "info": {
+    "singularName": "webinar",
+    "pluralName": "webinars",
+    "displayName": "Вебінари",
+    "description": "Керування вебінарами, додавання заголовка, підзаголовка, міні-субтитрів, дати та зображення"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "subtitle": {
+      "type": "text",
+      "required": true,
+      "displayName": "Підзаголовок"
+    },
+    "theme": {
+      "type": "text",
+      "required": true,
+      "displayName": "Тема"
+    },
+    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+  }
+}

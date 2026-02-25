@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinar_admins",
+  "info": {
+    "singularName": "webinar-admin",
+    "pluralName": "webinar-admins",
+    "displayName": "Webinar Admin"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "login": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
