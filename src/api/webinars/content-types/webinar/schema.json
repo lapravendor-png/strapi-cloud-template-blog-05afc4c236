@@ -20,32 +20,28 @@
     "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" },
     "date": { "type": "date", "required": true, "displayName": "Дата вебінару" },
     "time": { "type": "time", "required": true, "displayName": "Час проведення" },
-    "will_be_useful": {
+    "usefuls": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.useful",
-      "displayName": "Буде корисним",
+      "component": "content.useful",
       "max": 20
     },
-    "what_you_will_learn": {
+    "learnings": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.learnings",
-      "displayName": "Що дізнаєтесь",
+      "component": "content.learning",
       "max": 20
     },
     "rewards": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.rewards",
-      "displayName": "Наші відзнаки",
+      "component": "content.reward",
       "max": 20
     },
     "benefits": {
       "type": "component",
       "repeatable": true,
-      "component": "webinar.benefits",
-      "displayName": "Що отримаєте",
+      "component": "content.benefit",
       "max": 20
     }
   }
