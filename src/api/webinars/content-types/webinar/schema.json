@@ -12,6 +12,7 @@
   },
   "attributes": {
     "title": { "type": "string", "required": true, "displayName": "Назва вебінару" },
+    "youtube_url": { "type": "string", "required": false, "displayName": "URL відео на YouTube" },
     "subtitle": {
       "type": "text",
       "required": true,
