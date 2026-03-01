@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global website configuration"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "site_enabled": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "maintenance_message": {
+      "type": "string",
+      "required": false,
+      "default": "Website is temporarily unavailable."
+    }
+  }
+}
