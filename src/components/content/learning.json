@@ -6,7 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": { "type": "string", "required": true, "displayName": "Назва" },
-    "image": { "type": "media", "multiple": false, "required": false, "displayName": "Зображення" }
+    "title": { "type": "string", "required": true, "displayName": "Назва" }
   }
 }

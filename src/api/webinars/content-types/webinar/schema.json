@@ -33,10 +33,10 @@
       "component": "content.learning",
       "max": 20
     },
-    "rewards": {
+    "events": {
       "type": "component",
       "repeatable": true,
-      "component": "content.reward",
+      "component": "content.event",
       "max": 20
     },
     "benefits": {

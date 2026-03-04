@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_content_events",
+  "info": {
+    "displayName": "Наші заходи",
+    "description": "Заходи"
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true, "displayName": "Назва" }
+  }
+}
